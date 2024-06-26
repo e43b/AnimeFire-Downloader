@@ -44,7 +44,7 @@ def baixar_e_salvar_video(url, caminho_do_arquivo):
 links_episodios = input("Insira os links dos episódios separados por vírgula: ").split(',')
 
 # Qualidade desejada e opção de baixar todas as qualidades
-qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD', 'F-HD', ou 'FullHD'
+qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD' ou 'F-HD'
 baixar_todas_qualidades = False
 
 # Intervalo de 20 segundos entre os downloads para evitar sobrecargas
