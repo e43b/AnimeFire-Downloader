@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeFire Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logocmplt.png" alt="Logo AnimeFire Downloader">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#como-usar">Como Usar</a></li>
+                    <li><a href="#exemplo">Exemplo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#download" class="download-btn">Download</a></li>
+                    <li><a href="https://github.com/e43b/AnimeFire-Downloader/" target="_blank">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="dark-bg">
+        <div class="container">
+            <h2>Sobre</h2>
+            <p>O AnimeFire é um dos sites mais antigos de animes do Brasil, com um vasto catálogo. O AnimeFire Downloader é uma ferramenta criada para facilitar o download de episódios diretamente do site AnimeFire.</p>
+        </div>
+    </section>
+
+    <section id="funcionalidades">
+        <div class="container">
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li>Extrai automaticamente os links de episódios de uma página principal do AnimeFire.</li>
+                <li>Permite escolher a qualidade desejada para os downloads (SD, HD, F-HD).</li>
+                <li>Opção de baixar todas as qualidades disponíveis ou apenas a qualidade preferida.</li>
+                <li>Organiza os vídeos baixados em pastas com o nome do anime e número do episódio.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="como-usar" class="dark-bg">
+        <div class="container">
+            <h2>Como Usar</h2>
+            <p>Clone o repositório, instale as dependências e execute o script Python para começar a baixar seus episódios favoritos de anime.</p>
+            <pre><code>git clone https://github.com/e43b/AnimeFire-Downloader.git</code></pre>
+            <pre><code>cd AnimeFire-Downloader/codes</code></pre>
+            <pre><code>python main.py</code></pre>
+        </div>
+    </section>
+
+    <section id="exemplo">
+        <div class="container">
+            <h2>Exemplo de Uso</h2>
+            <p>Insira o link da página principal do anime para começar a baixar os episódios.</p>
+            <pre><code>Insira o link da página principal do anime: https://animefire.plus/animes/one-piece-dublado-todos-os-episodios</code></pre>
+        </div>
+    </section>
+
+    <section id="contato" class="dark-bg">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Caso tenha problemas, encontre bugs ou tenha alguma dúvida, acesse o nosso <a href="https://discord.gg/TaPhfXawcE" target="_blank" style="text-decoration: none; color: #3BCBF9;">Discord</a> para obter ajuda e suporte.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><a href="https://github.com/e43b/AnimeFire-Downloader/" target="_blank" style="text-decoration: none; color: #3BCBF9;">&copy; 2024 AnimeFire Downloader.</a></p>
+        </div>
+    </footer>
+
+    <!-- Script para download do arquivo ZIP -->
+    <script>
+        document.querySelector('.download-btn').addEventListener('click', function() {
+            window.location.href = 'AnimeFire-Downloader-main.zip';
+        });
+
+        // Ajuste de rolagem para links de navegação
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const sectionId = this.getAttribute('href').substring(1);
+                const section = document.getElementById(sectionId);
+
+                if (section) {
+                    const headerHeight = document.getElementById('header').offsetHeight;
+                    const sectionPosition = section.offsetTop - headerHeight + 90; // Ajuste para 100 pixels abaixo
+
+                    window.scrollTo({
+                        top: sectionPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
