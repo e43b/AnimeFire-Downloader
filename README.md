@@ -43,7 +43,7 @@ Nos códigos `codes/ep.py` e `codes/anime.py`, existem algumas variáveis que pe
 Você pode escolher a qualidade desejada modificando a variável `qualidade_desejada`. Por padrão, ela está configurada para 'F-HD', mas pode ser alterada para uma das seguintes opções: 'SD', 'HD', 'F-HD', ou 'FullHD'.
 
 ```python
-qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD', 'F-HD', ou 'FullHD'
+qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD' ou 'F-HD'
 ```
 
 ### Baixar Todas as Qualidades Disponíveis
