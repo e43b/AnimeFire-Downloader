@@ -1,4 +1,4 @@
-# AnimeFire-Downloader
+# AnimeFire-Downloader [![Views](https://hits.sh/github.com/e43banifire/hits.svg)](https://github.com/e43b/Anibunker-Downloader/)
 
 Este é um script Python para baixar episódios de animes do site AnimeFire.plus. Ele permite extrair links de episódios de uma página principal de um anime específico e baixar os vídeos em diferentes qualidades disponíveis.
 
