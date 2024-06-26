@@ -57,7 +57,7 @@ def extrair_links_dos_episodios(url):
 link_pagina_principal = input("Insira o link da página principal do anime: ")
 
 # Qualidade desejada e opção de baixar todas as qualidades
-qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD', 'F-HD', ou 'FullHD'
+qualidade_desejada = 'F-HD'  # Pode ser 'SD', 'HD' ou 'F-HD'
 baixar_todas_qualidades = False
 
 # Intervalo de 20 segundos entre os downloads para evitar sobrecargas
