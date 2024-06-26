@@ -67,26 +67,14 @@ Certifique-se de configurar essas variáveis de acordo com suas preferências an
 
 ## Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias ou correções.
+Este projeto é de código aberto e você é encorajado a contribuir para melhorias e novas funcionalidades. Sinta-se à vontade para enviar sugestões, relatar problemas ou enviar pull requests através do [repositório oficial no GitHub](https://github.com/e43b/AnimeFire-Downloader/).
 
 ## Autor
 
-Seu Nome <seu.email@example.com>
+Desenvolvido e mantido por [E43b](https://github.com/e43b), o AnimeFire Downloader visa simplificar o processo de download de animes, proporcionando uma experiência mais acessível e organizada para os fãs de anime.
 
-## Licença
+## Links
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
-```
+- Repositório do Projeto: [https://github.com/e43b/AnimeFire-Downloader/](https://github.com/e43b/AnimeFire-Downloader/)
+- Site AnimeFire: [https://animefire.plus/](https://animefire.plus/)
 
-### Explicação do `README.md`:
-
-- **Título e Descrição**: Informa o nome do projeto e uma breve descrição do que ele faz.
-- **Funcionalidades**: Lista as principais funcionalidades oferecidas pelo script.
-- **Requisitos**: Indica os requisitos necessários para executar o script.
-- **Como Usar**: Instruções para clonar o repositório, instalar dependências e executar o script.
-- **Exemplo de Uso**: Exemplo de como seria a interação com o script no terminal.
-- **Contribuições**: Incentiva contribuições para o projeto.
-- **Autor**: Informações sobre o autor do projeto.
-- **Licença**: Especifica a licença sob a qual o projeto está disponível.
-
-Certifique-se de adaptar as seções conforme necessário para o seu projeto específico. Isso proporcionará uma boa orientação para os usuários interessados no seu script de download de episódios de animes do AnimeFire.
